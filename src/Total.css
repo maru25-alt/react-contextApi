@@ -1,0 +1,81 @@
+.mycard {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.totalCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 20px;
+  margin-bottom: 0;
+}
+
+.totalCard_expenditure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addnew__button {
+  border-radius: 50%;
+  background-color: deeppink;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+
+.totalCard_expenditure .expenses {
+  margin-left: 10px;
+  color: red;
+}
+
+.totalCard_expenditure .income {
+  color: deepskyblue;
+}
+
+.type__button {
+  border-radius: 20px;
+  background-color: #444;
+  width: 180px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+/* input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+} */
+
+/* input:checked + */
+.expensesRadio {
+  background-color: deeppink;
+  border-radius: 20px 0 0 20px;
+  margin: 0;
+  flex: 0.5;
+  width: 90px;
+  /* height: 100%; */
+}
+
+.incomeRadio {
+  background-color: deepskyblue;
+  border-radius: 0 20px 20px 0px;
+  margin: 0;
+  flex: 0.5;
+  width: 90px;
+  /* height: 100%; */
+}
+
+.form-control:focus {
+  outline: none !important;
+}

@@ -1,0 +1,77 @@
+.entries {
+  background-color: #fff;
+  height: 70vh;
+  padding: 20px;
+  padding-top: 30px;
+  overflow-y: scroll;
+  margin-top: 0px;
+  clip-path: polygon(
+    29% 6%,
+    41% 6%,
+    60% 5%,
+    77% 4%,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 0,
+    16% 4%
+  );
+}
+.entries::-webkit-scrollbar {
+  display: none;
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 12px;
+  width: 100%;
+  border: none;
+}
+
+.entry__content {
+  flex: 1;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.entry__content h5 {
+  font-weight: 500;
+  font-size: 14px;
+}
+.entry__content .date {
+  opacity: 0.7;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.category {
+  border-radius: 20px;
+  background-color: hotpink;
+  padding: 5px;
+  width: 50%;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+.income__icon {
+  background-color: deepskyblue !important;
+}
+
+.entry__type {
+  background-color: #e3e3e3;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.income__expenses {
+  background-color: red;
+}
